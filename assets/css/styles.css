@@ -1,0 +1,273 @@
+/* Farben: #002a5a, #efe8d7, #F4C4C4, #282b29, #7d2222, #DEB873, #D2D2D2, #1d8883 */
+@font-face 
+{
+    font-family: 'athene'; 
+    src: url(../font/athene/Athene.otf); 
+}
+body
+{
+margin: 0;
+padding: 0;
+font-family: athene;
+background-color: #D2D2D2;
+}
+header
+{
+background-color:#efe8d7 ;
+padding-bottom: 5vh;
+margin: 0;
+}
+section
+{
+    margin: 0;
+}
+body>header> nav
+{
+    width: 100vw;
+    border-bottom: 1px solid #002a5a;
+    display: flex;
+    position: fixed;
+}
+body header nav p
+{
+    text-align: left;
+    color: #002a5a;
+    margin-left: 30vw;
+}
+body header nav p:nth-of-type(2)
+{
+    text-align: right;
+    color: #002a5a;
+    margin-left: 30vw;
+}
+
+body> header> p{
+    /* border-top: 1px solid #002a5a; */ 
+    margin-right: 10vw;
+    margin-left: 10vw; 
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 5%;
+    border-bottom: 1px solid #002a5a;
+    text-align: left;
+    font-size: 122px;
+    padding-left: 40vh;
+    color: #002a5a;
+}
+img
+{
+    margin-top: 2%;
+    margin-left: 40%;
+}
+body>header>p:last-of-type
+{
+    font-size: 26px;
+    padding-top: 10px;
+    border-bottom: unset;
+    padding-left: 30%;
+}
+main
+{
+    margin-bottom: 5vh;;
+    padding:0;
+    background-color: #F4C4C4;
+}
+main>p
+{
+    padding-top: 4%;
+    margin-left: 5%; 
+}
+main>div>p
+{
+    font-size: 122px;
+    margin: 0;
+}
+section p
+{
+    text-align: left;
+    width: 22vw;
+    margin-left: 72vw;
+    padding-bottom: 50px;
+}
+main>div:nth-of-type(2)
+{
+    margin-left: 60vw;
+    padding-right: 5%;
+}
+
+main>div>table
+{
+    border-bottom: #002a5a;
+    
+}
+
+main>div>table>thead>tr,th
+{
+    border-bottom:1px solid #002a5a;
+    text-align: right;
+    
+}
+
+main>div> tr,td
+{
+    border-bottom:1px solid #002a5a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+main>div>table>tr, td:nth-last-of-type(3)
+{
+    text-align: left;
+    margin-right: 20px;
+}
+
+main>div>table>tr, td:nth-last-of-type(2)
+{
+    text-align: left;
+    width: 240px;
+}
+main>div>table>tr, td:nth-last-of-type(1)
+{
+    text-align: right;
+    width: 30%;
+}
+article img
+{
+    width: 100px;
+margin-left: 90vw;
+margin-bottom: 5vh;
+}
+
+.middle{
+    background-color: #DEB873;
+    margin: 0;
+}
+main>.middle>p
+{
+    padding-top: 4%;
+    margin-left: 95vw; 
+    font-size: 16px;
+    color: #7d2222;
+    margin-bottom: 50px;
+}
+main>.middle>div>p
+{
+    font-size: 122px;
+    margin-left: 80vw;
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    color: #7d2222;
+}
+
+main>.middle article
+{
+text-align: left;
+}
+main>.middle>article>p
+{
+    padding-left: 5vw;
+    line-height: 40px;
+    width:26vw;
+    text-align: left;
+    color: #7d2222;
+}
+.middle>section:nth-of-type(1)
+{
+    width: 100vw;
+    height: 50vh;
+    background-color: #DEB873;
+    background-image: url(../img/bg-marconatto-1.jpg);
+    background-repeat: no-repeat;
+    background-position: right 10vw center; 
+    background-size: 800px;
+}
+.middle>section:nth-of-type(2)
+{
+    width: 100vw;
+    height: 50vh;
+    background-color: #DEB873;
+    background-image: url(../img/kathe_cover-1.jpg);
+    background-repeat: no-repeat;
+    background-position: left 10vw center;
+    background-size: 800px;
+}
+.middle>section:nth-of-type(3)
+{
+    width: 100vw;
+    height: 50vh;
+    background-color: #DEB873;
+    background-image: url(../img/bg-nicole-1.jpg);
+    background-repeat: no-repeat;
+    background-position: right 10vw center; 
+    background-size: 800px;
+}
+.middle>section:nth-of-type(4)
+{
+    width: 100vw;
+    height: 50vh;
+    background-color: #DEB873;
+    background-image: url(../img/boa_cover-1.jpg);
+    background-repeat: no-repeat;
+    background-position: left 10vw center;
+    background-size: 800px;
+}
+.middle h2
+{
+    font-size: 84px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    color: #7d2222;
+
+}
+body>main>.middle>section:nth-of-type(even)
+{
+    text-align: right;
+  
+}
+footer
+{
+    background-color:#D2D2D2 ;
+}
+footer>p
+{
+    padding-top: 4%;
+    margin-left: 5%;
+    color:#1d8883; 
+}
+footer>div
+{
+    margin: 0;
+    padding: 0;
+}
+footer>div>p{
+    font-size: 122px;
+    margin: 0;
+    padding: 0;
+    color:#1d8883;
+}
+footer article
+{
+    margin: 0 auto;
+    line-height: 40px;
+    width:30vh;
+    color:#1d8883;
+}
+footer ul
+{
+    text-align: right;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 2vh;
+}
+footer ul li a
+{
+    text-decoration: none;
+    color:#1d8883;
+    font-size: 18px;
+    line-height: 40px;
+}
+footer ul li a:hover
+{
+    text-decoration:underline;
+}
