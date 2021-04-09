@@ -2,7 +2,7 @@
 @font-face 
 {
     font-family: 'athene'; 
-    src: url(assets/font/athene/Athene.otf); 
+    src: url(../../athene/Athene.otf); 
 }
 body
 {
