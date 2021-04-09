@@ -2,7 +2,7 @@
 @font-face 
 {
     font-family: 'athene'; 
-    src: url(../assets/font/athene/Athene.otf); 
+    src: url(assets/font/athene/Athene.otf); 
 }
 body
 {
@@ -177,7 +177,7 @@ main>.middle>article>p
     width: 100vw;
     height: 50vh;
     background-color: #DEB873;
-    background-image: url(..assets/img/bg-marconatto-1.jpg);
+    background-image: url(assets/img/bg-marconatto-1.jpg);
     background-repeat: no-repeat;
     background-position: right 10vw center; 
     background-size: 800px;
@@ -187,7 +187,7 @@ main>.middle>article>p
     width: 100vw;
     height: 50vh;
     background-color: #DEB873;
-    background-image: url(..assets/img/kathe_cover-1.jpg);
+    background-image: url(assets/img/kathe_cover-1.jpg);
     background-repeat: no-repeat;
     background-position: left 10vw center;
     background-size: 800px;
@@ -197,7 +197,7 @@ main>.middle>article>p
     width: 100vw;
     height: 50vh;
     background-color: #DEB873;
-    background-image: url(..assets/img/bg-nicole-1.jpg);
+    background-image: url(assets/img/bg-nicole-1.jpg);
     background-repeat: no-repeat;
     background-position: right 10vw center; 
     background-size: 800px;
@@ -207,7 +207,7 @@ main>.middle>article>p
     width: 100vw;
     height: 50vh;
     background-color: #DEB873;
-    background-image: url(..assets/img/boa_cover-1.jpg);
+    background-image: url(assets/img/boa_cover-1.jpg);
     background-repeat: no-repeat;
     background-position: left 10vw center;
     background-size: 800px;
